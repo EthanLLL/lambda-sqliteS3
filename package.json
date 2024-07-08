@@ -1,0 +1,17 @@
+{
+  "name": "lambda-sqlites3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env src/event.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.609.0",
+    "better-sqlite3": "^11.1.2"
+  }
+}
